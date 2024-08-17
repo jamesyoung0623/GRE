@@ -7,10 +7,10 @@
     pip install -r requirements.txt
 
 ## Download dataset
-Download the [dataset](https://drive.google.com/drive/folders/1jf8SzSWlmVs3j7EgY8o5zH8oS-vKC3MV?usp=sharing) and put them in ./dataset/gaussian-splatting_gre/
+Download the [dataset](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) and put them in ./dataset/gaussian-splatting_gre/
 
 ## Download pre-trained models
-Download the [pre-trained models](https://drive.google.com/drive/folders/1jf8SzSWlmVs3j7EgY8o5zH8oS-vKC3MV?usp=sharing) and put them in ./data/exp/
+Download the [pre-trained models](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) and put them in ./data/
 
 ## Testing
 
