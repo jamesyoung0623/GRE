@@ -6,17 +6,19 @@
     pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
     pip install -r requirements.txt
 
-## Download dataset
-Download the [dataset](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) and put them in ./dataset/gaussian-splatting_gre/
-
 ## Download pre-trained models
-Download the [pre-trained models](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) and put them in ./data/
+Download the [pre-trained models](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) in the `data` folder.
+
+## Download dataset
+Download the [dataset](https://drive.google.com/drive/folders/1ytTneUvwmabw8LURDIWJOgwPVzFsxvta?usp=sharing) and refer to `link.sh` to create soft links for the dataset.
 
 ## Testing
+Change the configuration in `test.sh` and run 
 
     sh test.sh
 
 ## Training
+Change the configuration in `train.sh` and run 
 
     sh train.sh
 
