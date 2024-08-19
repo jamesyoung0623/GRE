@@ -7,7 +7,7 @@
     pip install -r requirements.txt
 
 ## Download pre-trained models
-Download the [pre-trained model](https://osf.io/cpgjh/?view_only=37ddf8919fe14f9b99b684aa9416585a) `data/exp/tandt_gaussian-splatting_gaussian-splatting_gre/ckpt/model_epoch_best.pth` and place it to the same path.
+Download the [data](https://osf.io/cpgjh/?view_only=37ddf8919fe14f9b99b684aa9416585a) folder as a zip file and unzip.
 
 ## Download dataset
 Download the [dataset](https://osf.io/cpgjh/?view_only=37ddf8919fe14f9b99b684aa9416585a), unzip the files, and place it to the same path as well. Put the images into the `test` folder if they are split into `test1.zip` and `test2.zip`. Run `link.sh` to create soft links for the dataset. 

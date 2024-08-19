@@ -23,7 +23,7 @@ DATASET="tandt"
 
 EXP_NAME=$DATASET"_"$GENERATION_MODEL"_"$REPRESENTATION
 
-CKPT="data/exp/$EXP_NAME/ckpt/model_epoch_best.pth"
+CKPT="model_epoch_best.pth"
 
 GENERATION_MODEL_TEST="gaussian-splatting"
 # GENERATION_MODEL_TEST="mip-splatting"
