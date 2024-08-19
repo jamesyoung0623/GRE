@@ -23,7 +23,7 @@ DATASET="tandt"
 
 EXP_NAME=$DATASET"_"$GENERATION_MODEL"_"$REPRESENTATION
 
-CKPT="/home/jamesyoung0623/rendering_deepfake/data/exp/$EXP_NAME/ckpt/model_epoch_best.pth"
+CKPT="data/exp/$EXP_NAME/ckpt/model_epoch_best.pth"
 
 GENERATION_MODEL_TEST="gaussian-splatting"
 # GENERATION_MODEL_TEST="mip-splatting"
@@ -36,4 +36,4 @@ DATASET_TEST="tandt"
 # DATASET_TEST="mip_nerf"
 DATASETS_TEST=$DATASET_TEST"_"$GENERATION_MODEL_TEST"_"$REPRESENTATION
 
-CUDA_VISIBLE_DEVICES=1 python test.py --gpus 1 --ckpt $CKPT --exp_name $EXP_NAME datasets_test $DATASETS_TEST
+CUDA_VISIBLE_DEVICES=0 python test.py --gpus 1 --ckpt $CKPT --exp_name $EXP_NAME datasets_test $DATASETS_TEST
