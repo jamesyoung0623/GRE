@@ -22,9 +22,9 @@ DATASET="tandt"
 # DATASET="mip_nerf"
 EXP_NAME=$DATASET"_"$GENERATION_MODEL"_"$REPRESENTATION
 
-ln -s dataset/$REPRESENTATION/real/$DATASET/train data/train/$EXP_NAME/0_real
-ln -s dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/train data/train/$EXP_NAME/1_fake
-ln -s dataset/$REPRESENTATION/real/$DATASET/val data/val/$EXP_NAME/0_real
-ln -s dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/val data/val/$EXP_NAME/1_fake
-ln -s dataset/$REPRESENTATION/real/$DATASET/test data/test/$EXP_NAME/0_real
-ln -s dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/test data/test/$EXP_NAME/1_fake
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/real/$DATASET/train data/train/$EXP_NAME/0_real
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/train data/train/$EXP_NAME/1_fake
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/real/$DATASET/val data/val/$EXP_NAME/0_real
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/val data/val/$EXP_NAME/1_fake
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/real/$DATASET/test data/test/$EXP_NAME/0_real
+ln -s /PATH/TO/FOLDER/dataset/$REPRESENTATION/synthetic/$GENERATION_MODEL/$DATASET/test data/test/$EXP_NAME/1_fake

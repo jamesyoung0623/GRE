@@ -1,10 +1,10 @@
 ### make sure that you have modified the GENERATION_MODEL
 GENERATION_MODEL="gaussian-splatting"
-GENERATION_MODEL="mip-splatting"
-GENERATION_MODEL="Compact-3DGS"
-GENERATION_MODEL="ges-splatting"
-GENERATION_MODEL="Scaffold-GS"
-GENERATION_MODEL="GS-IR"
+# GENERATION_MODEL="mip-splatting"
+# GENERATION_MODEL="Compact-3DGS"
+# GENERATION_MODEL="ges-splatting"
+# GENERATION_MODEL="Scaffold-GS"
+# GENERATION_MODEL="GS-IR"
 
 RECONSTRUCTION_MODEL="gaussian-splatting"
 # RECONSTRUCTION_MODEL="mip-splatting"
